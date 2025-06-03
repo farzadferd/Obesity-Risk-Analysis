@@ -14,17 +14,20 @@ Interpret and visualize learned relationships for actionable health insights.
 ## Approach
 
 1. Data Preprocessing
+
 Cleaned and formatted the UCI Obesity dataset.
 Handled missing values and encoded categorical variables.
 Discretized continuous features (e.g., age, physical activity) using domain knowledge and distribution-based binning.
 
 3. Bayesian Network Modeling
+
 Applied structure learning algorithms:
 Hill Climb Search (score-based)
 Constraint-based methods (e.g., PC algorithm)
 Learned conditional dependency structures to model relationships beyond pairwise correlations.
 
 4. Inference
+
 Used belief propagation for exact inference on the learned Bayesian network.
 Queried the probability of obesity given evidence on variables like eating habits, screen time, or physical activity levels.
 Identified both direct and indirect (mediated) influences on obesity.
