@@ -46,6 +46,9 @@ Recognized the value of interpretable machine learning in domains like healthcar
 ## Tools Used
 
 Python
+
 bnlearn for Bayesian networks
+
 pandas, numpy for data preprocessing
+
 networkx, matplotlib for visualization
